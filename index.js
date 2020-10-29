@@ -64,13 +64,16 @@ const questions = () => {
 
 // function to write README file
 function writeToFile(fileName, data) {
+    //creating a new promise object, uses resolve and reject 
     return new Promise((resolve, reject) => {
+        //write file function with file, data, and callback
         fs.writeFile(fileName, data, err => {
+            //checks for error
             if (err) {
                 reject(err);
                 return;
             }
-            
+            //if no error boolean variable set to true, message returned
             resolve({
                 ok: true,
                 message: 'File created'
@@ -85,6 +88,8 @@ function init() {
     //first thing to run //the .thens can go inside of here
     questions()
         .then(data =>{
+            //writing to the read me markdown file in the "dist folder"
+            //getting the data from exported generateMakrdown file
             writeToFile('./dist/readme.md', generateMarkdown(data));
         })
 }
