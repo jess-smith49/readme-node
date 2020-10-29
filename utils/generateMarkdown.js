@@ -1,12 +1,13 @@
-// function to generate markdown for README
+//function to generate markdown for README
+//getting data from questions array
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  # Description
+  ## Description
 
   ${data.description}
 
-  # Table of Contents
+  ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#lisence)
@@ -14,19 +15,21 @@ function generateMarkdown(data) {
     * [Tests](#tests)
     * [Questions](#questions)
 
-  # Installation <a name = "installation"></a>
+  ## Installation <a name = "installation"></a>
+  ${data.install}
+  ## Usage
+  ${data.usage}
+  ## License
+  ${data.license}
+  ## Contributing
+  ${data.contributing}
+  ## Tests
+  ${data.test}
 
-  # Usage
-
-  # License
-
-  # Contributing
-
-  # Tests
-
-  # Questions
-    If you have any additional questions you can reach me at ${data.email}.
+  ## Questions
+    If you have any additional questions you can reach me at ${data.email}. ![GitHub](${data.link})
 `;
 }
 
+//allows for another file to use this function
 module.exports = generateMarkdown;

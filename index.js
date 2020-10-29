@@ -1,11 +1,14 @@
 const fs = require('fs');
+//inquirer being used for command line prompts
 const inquirer = require('inquirer');
+//exports generateMarkdown function from another javascript file
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 
 // array of questions for user
 const questions = () => {
+    //using inquirer prompts
     return inquirer.prompt([
     {
         type: 'input',
@@ -72,16 +75,16 @@ function writeToFile(fileName, data) {
             if (err) {
                 reject(err);
                 return;
-            }
+            };
             //if no error boolean variable set to true, message returned
             resolve({
                 ok: true,
                 message: 'File created'
-            })
+            });
 
-        })
-    })
-}
+        });
+    });
+};
 
 // function to initialize program
 function init() {
@@ -91,8 +94,8 @@ function init() {
             //writing to the read me markdown file in the "dist folder"
             //getting the data from exported generateMakrdown file
             writeToFile('./dist/readme.md', generateMarkdown(data));
-        })
-}
+        });
+};
 
 // function call to initialize program
 init();
