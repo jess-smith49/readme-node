@@ -20,14 +20,14 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## License
-  ${data.license}
+  Licensed under the ![GitHub license](<${data.license}>).
   ## Contributing
   ${data.contributing}
   ## Tests
   ${data.test}
 
   ## Questions
-    If you have any additional questions you can reach me at ${data.email}. ![GitHub](${data.link})
+  If you have any additional questions you can reach me at ${data.email}. ![GitHub](http://github.com/${data.link})
 `;
 }
 
