@@ -4,39 +4,6 @@ const inquirer = require('inquirer');
 //exports generateMarkdown function from another javascript file
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-const badges = {
-    
-        boost:{
-           name: 'Boost',
-           badge: "https://img.shields.io/badge/License-Boost%201.0-lightblue.svg", 
-           link: "https://www.boost.org/LICENSE_1_0.txt"
-        },
-        
-        apache:
-        {
-            name: 'Apache',
-            badge:"https://img.shields.io/badge/License-Apache%202.0-blue.svg",
-            link: "https://opensource.org/licenses/Apache-2.0"
-        },
-        mit:
-        {
-            name: 'MIT',
-            badge: "https://img.shields.io/badge/License-MIT-yellow.svg",
-            link: "https://opensource.org/licenses/MIT"
-        },
-        mpl:
-        {
-            name: 'MPL',
-            badge: "https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg",
-            link: "https://opensource.org/licenses/MPL-2.0"
-        },
-        perl:
-        {
-            name: "Perl",
-            badge: "https://img.shields.io/badge/License-Perl-0298c3.svg",
-            link: "https://opensource.org/licenses/Artistic-2.0"
-        }  
-};
 
 // array of questions for user
 const questions = () => {
