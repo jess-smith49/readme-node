@@ -1,8 +1,8 @@
-# a;kf       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
+# ;afsd       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
 
   ## Description
 
-  alkdjf
+  af;jsd
 
   ## Table of Contents
     * [Installation](#installation)
@@ -13,15 +13,17 @@
     * [Questions](#questions)
 
   ## Installation <a name = "installation"></a>
-  aj;df
-  ## Usage
-  ajf;
+  How to install:
+  alkdj;f
+  ## Usage 
+  Information for Usage guidelines:
+  a;ljdsf
   ## License
-  Licensed under Boost. More information can be found using this link. https://www.boost.org/LICENSE_1_0.txt
+  Licensed under Boost. More information can be found here https://www.boost.org/LICENSE_1_0.txt.
   ## Contributing
   undefined
   ## Tests
-  al;jdf
+  adjf
 
   ## Questions
-  If you have any additional questions you can reach me at j;fa. ![GitHub](http://github.com/asdflj;)
+  If you have any questions you can reach me at djs;af. For more project see my profile here ![GitHub](http://github.com/alksdjf;).
