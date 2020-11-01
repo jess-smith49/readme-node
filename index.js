@@ -12,37 +12,93 @@ const questions = () => {
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?'
+        message: 'What is your email address?',
+        validate: emailInput => {
+            if(emailInput){
+                return true;
+            }
+            else {
+                console.log('Please enter your email to continue.')
+            }
+        }
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your Project?'
+        message: 'What is the name of your Project?',
+        validate: titleInput => {
+            if(titleInput){
+                return true;
+            }
+            else {
+                console.log("Please enter the title of your project to continue.")
+            }
+        }
     },
     {
         type: 'input',
         name: 'username',
-        message: 'What is your GitHub username?'
+        message: 'What is your GitHub username?',
+        validate: userInput => {
+            if(userInput) {
+                return true;
+            }
+            else{
+                console.log('Please enter your GitHub username to continue')
+            }
+        }
     },
     {
         type: 'input',
         name: 'link',
-        message: 'What is your the link to your GitHub username?'
+        message: 'What is your the link to your GitHub?',
+        validate: linkInput => {
+            if (linkInput) {
+                return true;
+            }
+            else {
+                console.log ('Please enter the link to your GitHub account.')
+            }
+        }
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please include a description of your Project.'
+        message: 'Please include a description of your Project.',
+        validate: descInput => {
+            if(descInput){
+                return true;
+            }
+            else {
+                console.log('Please write a description of project to continue.')
+            }
+        }
     },
     {
         type: 'input',
         name: 'install',
-        message: 'What are the installation instructions?'
+        message: 'What are the installation instructions?',
+        validate: insInput => {
+            if(insInput){
+                return true;
+            }
+            else {
+                console.log('Please enter installation instructions to continue.')
+            }
+        }
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What is the usage information?'
+        message: 'What is the usage information?',
+        validate: usageInput => {
+            if(usageInput){
+                return true
+            }
+            else{
+                console.log('Please enter the usage information to continue.')
+            }
+        }
     },
     {
         type: 'checkbox',
@@ -54,12 +110,26 @@ const questions = () => {
     {
         type: 'input',
         name: 'contribution',
-        message: 'What are the contribution guidelines?'
+        message: 'What are the contribution guidelines?',
+        validate: contrInput => {
+            if(contrInput){
+                return true;
+            }
+            else{
+                console.log('Please enter the contribution information to continue.')
+            }
+        }
     },
     {
         type: 'input',
         name: 'test',
-        message: 'What are the test instructions?'
+        message: 'What are the test instructions?',
+        validate: testInput => {
+            if(testInput){
+                return true;
+            }
+            console.log('Please enter test instructions to continue.')
+        }
     }
 
 ])};
