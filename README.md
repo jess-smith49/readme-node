@@ -8,11 +8,11 @@ This node.js created application prompts users for input to generate a read-me f
 This is used to create readme files for users about project information and other types of instructions. 
 
 # Technologies
-Javascripts and node.js make up the functionality of this project
+Javascripts and node.js make up the functionality of this project, along with the inquirer package for command line prompts.
 
 # Future Development
 
-Adding more user prompts to create a more descriptive read me, with options to skip sections for a customizable readme file.
+Adding more user prompts to create a more descriptive read me, with options to skip sections or create new sections for a customizable readme file.
 
 # Walkthrough
 See this link for how to invoke the application and generate a user-specific readme.
