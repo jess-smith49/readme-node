@@ -1,8 +1,8 @@
-# Professional Readme Generator       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
+# Professional README Generator       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
 
   ## Description
 
-  Generates a README file based off of user input
+  This project uses node.js and inquirer to prompt users for information. Once their information is entered, it is added to sections of the readme.
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -14,16 +14,16 @@
 
   ## Installation 
   How to install:
-  Use the computer terminal to git clone the repo into a new folder.
+  Use "git clone" in the computer terminal to clone the repo. Open the application up in VSCode.
   ## Usage 
   Information for Usage guidelines:
-  Used to create a high-quality professinal README for projects.
+  Can be used by anyone who needs to create a professional README for a project.
   ## License 
   Licensed under Boost. More information can be found here https://www.boost.org/LICENSE_1_0.txt.
   ## Contributing 
-  No contributions at this time.
+  No contributors at this time.
   ## Tests 
-  Manual testing through application.
+  Manual testing through computer terminal.
 
   ## Questions 
   If you have any questions you can reach me at js.jessicasmith774@gmail.com. For more project see my profile here [GitHub](https://github.com/jess-smith49).
