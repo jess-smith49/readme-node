@@ -44,28 +44,28 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-    1. [Installation](#installation)
-    2. [Usage](#usage)
-    3. [License](#lisence)
-    4. [Contributing](#contributing)
-    5. [Tests](#tests)
-    6. [Questions](#questions)
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
 
-  ## Installation <a name ="installation"></a>
+  ## Installation 
   How to install:
   ${data.install}
-  ## Usage <a name ="usage"></a>
+  ## Usage 
   Information for Usage guidelines:
   ${data.usage}
-  ## License <a name="license></a>
+  ## License 
   Licensed under ${badges[data.license].name}. More information can be found here ${badges[data.license].link}.
-  ## Contributing <a name="contributing"></a>
-  ${data.contributing}
-  ## Tests <a name="tests"></a>
+  ## Contributing 
+  ${data.contribution}
+  ## Tests 
   ${data.test}
 
-  ## Questions <a name="questions></a>
-  If you have any questions you can reach me at ${data.email}. For more project see my profile here ![GitHub](http://github.com/${data.link}).
+  ## Questions 
+  If you have any questions you can reach me at ${data.email}. For more project see my profile here [GitHub](https://github.com/${data.link}).
 `;
 }
 

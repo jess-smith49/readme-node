@@ -1,29 +1,29 @@
-# al;jdf       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
+# Professional Readme Generator       ![GitHub license](<https://img.shields.io/badge/License-Boost%201.0-lightblue.svg>)
 
   ## Description
 
-  akldf
+  Generates a README file based off of user input
 
   ## Table of Contents
-    1. [Installation](#installation)
-    2. [Usage](#usage)
-    3. [License](#lisence)
-    4. [Contributing](#contributing)
-    5. [Tests](#tests)
-    6. [Questions](#questions)
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
 
-  ## Installation <a name ="installation"></a>
+  ## Installation 
   How to install:
-  alkdjf;
-  ## Usage <a name ="usage"></a>
+  Use the computer terminal to git clone the repo into a new folder.
+  ## Usage 
   Information for Usage guidelines:
-  ajdkf;
-  ## License <a name="license></a>
+  Used to create a high-quality professinal README for projects.
+  ## License 
   Licensed under Boost. More information can be found here https://www.boost.org/LICENSE_1_0.txt.
-  ## Contributing <a name="contributing"></a>
-  undefined
-  ## Tests <a name="tests"></a>
-  ;ad
+  ## Contributing 
+  No contributions at this time.
+  ## Tests 
+  Manual testing through application.
 
-  ## Questions <a name="questions></a>
-  If you have any questions you can reach me at k;a. For more project see my profile here ![GitHub](http://github.com/alkdfj;).
+  ## Questions 
+  If you have any questions you can reach me at js.jessicasmith774@gmail.com. For more project see my profile here [GitHub](https://github.com/jess-smith49).

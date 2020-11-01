@@ -37,27 +37,14 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'username',
-        message: 'What is your GitHub username?',
-        validate: userInput => {
-            if(userInput) {
-                return true;
-            }
-            else{
-                console.log('Please enter your GitHub username to continue')
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'link',
-        message: 'What is your the link to your GitHub?',
+        message: 'Please enter your username to create a link to your GitHub account?',
         validate: linkInput => {
             if (linkInput) {
                 return true;
             }
             else {
-                console.log ('Please enter the link to your GitHub account.')
+                console.log ('Please enter a username for a link to your GitHub account.')
             }
         }
     },
