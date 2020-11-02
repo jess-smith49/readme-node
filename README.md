@@ -18,9 +18,7 @@ Adding more user prompts to create a more descriptive read me, with options to s
 See this link for how to invoke the application and generate a user-specific readme.
 [Tutorial](https://drive.google.com/file/d/1g92-837rsQVxsNc7mZJ3xG55XDcidStj/view)
 
-# Questions
 
-If you have any questions you can checkout 
 
 
 
